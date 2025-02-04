@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: [Inter];
+}
+
+body {
+    background-color:  hsl(0, 0%, 8%);
+    
+}
+#card-profile {
+    font-family: Inter;
+    border-radius: 10px;
+    margin: 16vh auto;
+    width: 80vw;
+    max-width: 600px;
+    max-height: 650px;
+    height: 80vh;
+    background-color:   hsl(0, 0%, 12%);
+}
+#container-center {
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+}
+
+#container-center h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 10px;
+    color:hsl(75, 94%, 57%);
+}
+
+#container-center p {
+    
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+#container-img > img {
+    max-width: 176px;
+    border-radius: 50%;
+    margin: 2vh auto
+}
+
+
+#container-link a {
+    font-size: 20px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    border-radius: 5px;
+    max-width: 80vw;
+    margin: 3vh 1.5vw; 
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px;
+    display: block;
+}
+
+#container-link a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:  hsl(0, 0%, 20%);
+}
